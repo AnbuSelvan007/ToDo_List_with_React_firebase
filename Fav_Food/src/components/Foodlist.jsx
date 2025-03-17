@@ -53,7 +53,7 @@ function Foodlist() {
   return (
     <div className="outercontainer">
       <div className="heading">
-        <h1>Favourate Food Notes</h1>
+        <h1>Simple TODO List</h1>
       </div>
       <div className="container">
           <input type="text" placeholder="Add a food" style={{textAlign:"center"}} value={currFood.title} onChange={(e)=>setCurrFood({...currFood,title:e.target.value})}/>
